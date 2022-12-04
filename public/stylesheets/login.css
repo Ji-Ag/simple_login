@@ -1,0 +1,21 @@
+header{
+    height :200px;
+}
+
+main{
+    height: 350px;
+}
+
+footer{
+    height: 100px;
+}
+
+#login-btn{
+   
+}
+
+#option{
+    text-align: center;
+    color-scheme: grey;
+    margin-top: 40px;
+}

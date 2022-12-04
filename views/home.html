@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="/js/home.js"></script>
+    
+    <script>
+           
+            var url = new URL(document.location.href);
+            var userid = url.search.split('?');
+            console.log(userid);
+        console.log(url);
+        document.write(`<h1>Welcome ${userid[1]}</h1>`);
+        
+    </script>
+
+    <button style="color:grey;" onclick="logout().js">로그아웃</button>
+</body>
+</html>
